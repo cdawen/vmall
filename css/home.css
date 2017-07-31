@@ -1,0 +1,24 @@
+*{padding:0; margin:0; list-style-type:none; text-decoration:none;}
+.cont{width:1000px; margin:0 auto;}
+.fl{float:left;}
+.fr{float:right;}
+.clearfix{clear:both;}
+/*头部*/
+/*最顶部*/
+.top{height:60px; background:url(../img/home/top.jpg) no-repeat scroll center top;}
+.top ul{float:right;}
+.top ul li{float:left; height:60px; line-height:60px; padding-right:30px;}
+.top ul li a{color:white;}
+.top ul li a:hover{color:dodgerblue; text-decoration:underline;}
+/*banner部分*/
+.banner{height:530px; background:url(../img/home/banner01.jpg) no-repeat scroll center top;}
+/*分类*/
+.title01{height:155px; background:url(../img/home/title01.jpg) no-repeat scroll center top;}
+.img01{height:413px; background:url(../img/home/hero.jpg) no-repeat scroll center top;}
+.product{height:5400px; background:url(../img/home/nr_bg01.jpg) repeat-y scroll center top;}
+.title02{height:159px; background:url(../img/home/title02.jpg) no-repeat scroll center top;}
+.img02{height:368px;}
+.img02 img{float:left;}
+.title03{height:159px; background:url(../img/home/title03.jpg) no-repeat scroll center top; }
+.title04{height:159px; background:url(../img/home/title04.jpg) no-repeat scroll center top; }
+.title05{height:153px; background:url(../img/home/title05.jpg) no-repeat scroll center top; }

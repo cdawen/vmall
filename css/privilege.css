@@ -1,0 +1,108 @@
+.content{background:#F5F5F5; overflow:hidden;}
+/*内容区*/
+/*banner开始*/
+.banner{height:448px; position:relative; width:100%; overflow:hidden;}
+.banner_content{position:absolute; left:50%; margin-left:-960px; height:448px; width:1920px; overflow:hidden;}
+.banner_list{width:1920px; overflow:hidden;}
+.banner_list img{ width:1920px; height:448px; position: absolute; top:0px; left:0px; display: block;}
+#pre{width:50px;height:50px;float:left;position:absolute;top:190px;left:290px;cursor:pointer;display:none;z-index: 2; font-size:48px; line-height:48px; color:white; text-align:center; border-radius:50%; border:2px solid white;}
+#next{width:50px;height:50px;float: left;position:absolute;top:190px;right:290px;cursor:pointer;display:none;z-index: 2; font-size:48px; line-height:48px; color:white; text-align:center; border-radius:50%; border:2px solid white;}
+.banner:hover #pre,.banner:hover #next{display: block;}
+#pre:hover,#next:hover{ }	        
+.dot_cont{width:1200px; height:20px; position:absolute; bottom:15px; z-index: 10; margin-left:360px;}
+#dot{height:20px; float:right;}
+#dot span{width:20px;height:20px;display:block;border-radius:10px;background-color:#000000; opacity:0.8; margin:0 5px;float: left;cursor:pointer; font-size:11px; text-align:center; line-height:20px; color:#FFFFFF;}
+#dot .on{background-color: #c81118;}
+/*二级菜单开始*/
+.list{position:absolute; left:360px; z-index:100;}
+.listLi{width:220px; height:448px; background:#333333; opacity:0.8;position:absolute;}
+.listLi dl{height:64px; width:220px; box-sizing:border-box; padding:10px 0 0 20px;}
+.listLi dl:hover {background:#000000; opacity:0.8;}
+.listLi dt a{color:#ffffff; font-size:16px;}
+.listLi dd{padding-top:5px;}
+.listLi dd a{color:#888888; font-size:14px;}
+/*banner结束*/
+.ad{height:160px; margin-top:20px;}
+.qd{width:240px; height:160px; background:#ffa900; text-align:center;}
+.qd span{display:block; width:75px; height:75px; text-align:center; background:white; color:#ffa900; border-radius:50%; font-size:16px; padding:15px 15px; box-sizing:border-box; margin:30px 84px 0;}
+.qd span:hover{background:#333333;}
+.qd p{color:white; font-size:14px; padding-top:15px;}
+.ad_con{width:960px; height:160px;}
+.ad_con li{width:312px; height:160px; margin-left:8px; float:left; background:white;}
+.ad_con li dt{float:left; padding:30px 0 0 30px;}
+.ad_con li dt h4{color:#333333;}
+.ad_con li dt p{color:#BBBBBB; font-size:12px; padding-top:3px;}
+.ad_con li dd{float:right; padding:30px 30px 0 0;}
+.ad_con li:hover{box-shadow:8px 8px 18px #DCDCDC,-8px 8px  18px #DCDCDC;}
+.ad_con li:hover img{transform:scale(1.05);}
+
+/*精品推荐*/
+.tj{margin-top:50px; overflow:hidden;}
+.tj h4{text-align:center; height:30px; line-height:30px;}
+.tj_con{margin-top:10px;}
+.tj01{width:232px; height:280px; background:white; color:#333333; margin:10px 0 0 10px;}
+#tj01{margin-left:0;}
+.tj01 img{width:132px; height:132px; padding:50px 50px 0;}
+.tj01:hover img{transform:scale(1.2);}
+.tj01:hover{box-shadow:8px 8px 15px #DEDEDE;}
+.tj01 h5{text-align:center; padding:17px 0 17px 0;}
+.tj01 h5 a{color:#333333;}
+.tj01 h5 a:hover{color:#ca151e;}
+.tj_b{height:40px; border-top:1px solid #ECECEC;}
+.tj_b span{display:inline-block; height:40px; font-size:12px;}
+.tj_b span:nth-child(1){float: left; width:116px; font-size:12px; padding:5px 0 0 10px; box-sizing:border-box;}
+.tj_b span s{text-decoration:line-through;}
+.tj_b span:nth-child(1) s{color:#888888;}
+.tj_b span:nth-child(2){float:right; background:#ca151e; width:116px; height:40px; line-height:40px; text-align: center; color:white;}
+.tj_b span:nth-child(2):hover{background:#9a151c;}
+#less{background:#ececec; color:#333333;}
+/*新人福利*/
+.newsman{overflow:hidden;}
+.newsman h4,.prize h4{text-align:center; height:29px; margin-top:20px; line-height:29px;}
+.news_img{padding-top:20px; height:395px; width:1200px; background:white; box-sizing:border-box; margin-top:20px;}
+.coupon{width:360px; height:146px; background:url(../img/privilege/coupon_bg.png) no-repeat; margin:0 20px 40px; color:white; overflow:hidden;}
+.coupon:hover{box-shadow:10px 10px 15px #E4E4E4,-10px 10px 15px #E4E4E4;}
+.coupon_l{/*width:259px;*/ height:146px;}
+.coupon_l p:nth-child(1){padding:10px 0 0 10px; font-size:14px;}
+.coupon_l p:nth-child(2){height:80px; position:relative; width:190px;}
+.coupon_l p:nth-child(2) em{font-size:65px; font-style:normal; padding-left:85px;}
+.coupon_l p:nth-child(2) i{font-style:normal; font-size:20px; padding:-40px 0 0 10px; position:absolute; top:15px; right:0; }
+.coupon_l p:nth-child(3){padding-left:10px; font-size:14px; padding-top:5px;}
+.coupon_r{border-left:1px dashed #ff8264; height:146px; width:100px; text-align:center;}
+.coupon_r span{display:inline-block; padding:30px 15px 0; background:url(../img/privilege/xiala.png) no-repeat center 100px; height:116px;}
+.coupon_r span a{font-size:24px; color:white;}
+.coupon_r:hover{background:#da115f;}
+/*二月特权福利*/
+.news_img02{padding-top:20px; height:209px; width:1200px; background:white; box-sizing:border-box; margin-top:20px;}
+/*抽奖赢好礼*/
+.prize{overflow:hidden; margin-bottom:40px;}
+.prize_img{height:510px; background:white; margin-top:20px;}
+.p_rule{width: 280px; height: 456px; padding:54px 20px 0 68px;}
+.p_rule h3{color:#333333; padding-left:-10px; width:170px; font-size:24px;}
+.p_rule li{list-style-type:decimal; color:#9a9a9a; padding-top:20px; font-size:14px;}
+/*抽奖旋转盘开始*/
+.p_chick{width:500px; height:500px; padding:5px; text-align:center;}
+.plate {position:relative;/*float: left;*/width: 500px;height: 500px;background-image: url(../img/privilege/prize01.png);}
+#plateBtn {position:absolute;left: 169px;top: 159px;width: 162px;height: 182px;background-image: url(../img/privilege/prize02.png); text-indent: -9999px; overflow: hidden;}	
+#result {display: none; position:absolute; left:100px; top: 190px; width: 300px;height: 120px;background-color: rgba(0, 0, 0, 0.75);filter: alpha(opacity=90);}		
+#resultTxt {padding: 45px 15px 0;font: 16px "Microsoft Yahei";color: #fff;text-align: center;}		
+#resultTxt em { color: #ffea76;font-style: normal;}	
+#resultBtn {position: absolute;right: 5px;top: 5px;width: 25px;height: 25px;text-indent: -100px;background-image: url(../img/privilege/close.png);overflow: hidden;}	
+/*抽奖旋转盘结束*/
+.p_user{width:280px; height:470px; margin:20px 22px 0 0; background:#f4f4f4; overflow:hidden;}
+.p_user h4{text-align:center;}
+#demo{overflow:hidden;height:250px; margin:30px 0 0 30px; position:relative;}
+#demo1,#demo2{height:auto;}
+#demo1 li a,#demo2 li a{color:#333333; font-size:14px;}
+#demo1 li,#demo2 li{height:22px;}
+#demo1 li a:hover,#demo2 li a:hover{text-decoration:underline;}
+/*悬浮框开始*/
+.suspend{}
+/*回到顶部*/
+.toTop{position:fixed; right:10px; bottom:30px; display:none; width:40px; height:40px; background:#999999; border-radius:50%;}
+.toTop span{width:14px; height:14px; top:13px; left:13px ; background:url(../img/index/icon2.png) no-repeat -92px 3px; position:absolute;}
+.toTop:hover{background:#666666;}
+
+
+
+

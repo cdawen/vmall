@@ -1,0 +1,60 @@
+.list{display:none;}
+.product_list h5:hover .list{display:block;}
+/*路径部分*/
+.path{padding:10px 0;}
+.path span{font-size:12px; display:inline-block;}
+.path span:nth-child(1) a{color:#666666;}
+.path span:nth-child(2){margin:0 10px;}
+.path span:nth-child(3) a{color:#333333;}
+/*分类排序*/
+.screen{width:1198px; height:101px; border:1px solid #EDEDED;}
+.product_class{height:50px; border-bottom:1px solid #EDEDED;}
+.ranking{height:50px;}
+.product_class ul,.ranking ul{padding-left:50px;}
+.product_class ul li,.ranking ul li{float:left; height:50px; line-height:50px; padding-right:20px;}
+.product_class ul li a,.ranking ul li a{font-size:12px; color:#333333;}
+.product_class ul li a:hover,.ranking ul li a:hover{color:#e01d20;}
+.ranking ul li:nth-child(3){background:url(../img/phone/sj.png) no-repeat 27px 23px;}
+.ranking ul li:nth-child(4){background:url(../img/phone/sj.png) no-repeat 39px 23px;}
+.ranking ul li:nth-child(5){background:url(../img/phone/sj.png) no-repeat 52px 23px;}
+.ranking ul li:nth-child(3),.ranking ul li:nth-child(4),.ranking ul li:nth-child(5){padding-right:30px;}
+#active{color:#e01d20;}
+/*二级菜单开始*/
+.secondMenu{position:absolute; left:0px; top:40px;}
+.list_pop{position:absolute; left:220px; top:0;}
+/*内容图片部分*/
+.img_con{margin-top:20px; overflow:hidden;}
+.img_con01{width:222px; height:362px; border:1px solid #dedede; margin:0 20px 20px 0; text-align:center; position:relative;}
+.img_con01:hover{border:1px solid #e01d20;}
+.img_con01:nth-child(5),.img_con01:nth-child(10),.img_con01:nth-child(15),.img_con01:nth-child(20){margin-right:0;}
+.img_con01 img{width:180px; height:180px; padding:38px 21px 24px;}
+.parameter{font-size:12px;padding:0 21px;}
+.img_con01 p:nth-child(2) a{width:180px;}
+.parameter{height:15px;}
+.parameter a{font-size:12px; color:#666666;}
+.red{color:#e01d20;}
+.parameter a:hover{color:#e01d20; text-decoration:underline;}
+.price{margin-bottom:10px; position:absolute; left:88.5px; bottom:30px;}
+.price a{color:#e01d20;}
+.convention{width:222px; height:30px; border-top:1px solid #dedede; position:absolute; bottom:0; left:0; font-size:12px;}
+.convention span:nth-child(1){display:inline-block; width:110px; height:30px;line-height:30px; color:#e01d20; border-right:1px solid #DEDEDE; float: left;}
+.convention span:nth-child(1):hover{background:#e01d20; color:white;}
+.convention span:nth-child(2){display:inline-block; width:111px; height:30px;line-height:30px; float:left;}
+.new_img{position:absolute; top:0; left:76px;}
+
+/*页码部分*/
+.page_number{margin:30px 0 50px 0; overflow:hidden;}
+.page_number ul{float:right;}
+.page_number ul li{float:left; width:29px; height:29px; border:1px solid #DEDEDE; margin-left:20px; line-height:29px; text-align:center;}
+.page_number ul li:hover{border:1px solid #BBBBBB;}
+.page_number ul li a{font-size:12px; color:#666666;}
+.page_number ul li a:hover{color:#e01d20 ;}
+.page_number ul li:nth-child(1){background:url(../img/phone/page01.png) no-repeat center center;}
+.page_number ul li:nth-child(2){background:url(../img/phone/page02.png) no-repeat center center;}
+.page_number ul li:nth-child(3),.page_number ul li:nth-child(4){border:none;}
+.page_number ul li:nth-child(5){background:url(../img/phone/page03.png) no-repeat center center;}
+.page_number ul li:nth-child(6){background:url(../img/phone/page04.png) no-repeat center center;}
+/*回到顶部*/
+.toTop{position:fixed; right:10px; bottom:30px; display:none; width:40px; height:40px; background:#999999; border-radius:50%;}
+.toTop span{width:14px; height:14px; top:13px; left:13px ; background:url(../img/index/icon2.png) no-repeat -92px 3px; position:absolute;}
+.toTop:hover{background:#666666;}

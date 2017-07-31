@@ -1,0 +1,110 @@
+/*公用的*/
+*{padding:0; margin:0; list-style:none; text-decoration:none; font-family:"微软雅黑";}
+.cont{width:960px; margin:0 auto;}
+.fl{float:left;}
+.fr{float:right;}
+.clearfix{clear:both;}
+.contariner{background:#f7f7f7;}
+/*头部*/
+.header{overflow:hidden;}
+.top{height:36px; background:#404040; border-bottom:1px solid #4e4e4e;}
+.top_l li{height:36px; float:left; padding-right:18px; line-height:36px;}
+.top_l li a{color:#b7b7b7; font-size:14px;}
+.top_l li a:hover{color:white;}
+.top_l li:nth-child(5) a{color:white;}
+.top_r{color:#B7B7B7; line-height:36px; font-size:12px;}
+.top_r a{font-size:12px; color:#B7B7B7;}
+.top_r a:hover{color:white;}
+.top_r span{color:white; font-size:12px; padding-left:15px;}
+
+.header_b{height:115px; background:white; border-bottom:1px solid #e4e4e4;}
+.h_logo{height:68px; border-bottom:1px solid #E4E4E4;}
+.logo{padding-top:15px;}
+.logo span{display:inline-block; width:1px; height:30px; background:#E4E4E4; margin:0 5px;}
+.seach input{padding-left:15px; height:33px; width:328px; margin-top:18px; color:#C7C7C7; outline:none;}
+
+.nav li{float:left; padding:0 30px; height:46px; line-height:46px;}
+.nav li a{color:#333333;}
+.nav li a:hover{color:#e32121;}
+#active a{color:#e32121;}
+/*内容区*/
+.content{margin-top:20px; overflow:hidden;}
+/*banner开始*/
+.banner{height:395px; width:960px; position:relative; overflow:hidden; border-radius:5px; margin-bottom:20px;}
+.banner_list{width:960px; overflow:hidden;}
+.banner_list img{ width:960px; height:395px; position: absolute; top:0px; left:0px; display: block;}
+#pre{width:28px;height:28px;border:2px solid #fff; border-radius:50%; float:left;position:absolute;top:170px;left:20px;cursor:pointer;display:none;z-index: 2;font-size:24px; line-height:24px; color:white; text-align:center;}
+/*#pre span{width:12px; height:16px; position:absolute; left:6px; top:6px; background:url(../img/club/icon2.png) no-repeat -70px 0px;}*/
+#next{width:28px;height:28px;border:2px solid #fff; border-radius:50%; float: left;position:absolute;top:170px;right:20px;cursor:pointer;display:none;z-index: 2; font-size:24px; line-height:24px; color:white; text-align:center;}
+/*#next span{width:12px; height:16px; position:absolute; right:6px; top:6px; background:url(../img/club/icon2.png) no-repeat -82px 0px;}*/
+.banner:hover #pre,.banner:hover #next{display: block; background-color: rgba(0,0,0,0.2);}
+#pre:hover,#next:hover{background-color: rgba(0,0,0,0.6); border:2px solid #349cf3; border-radius:50%; color:#349cf3;}
+.dot_cont{width:960px; height:8px; position:absolute; bottom:15px; z-index: 10; /*margin-left:360px;*/}
+#dot{height:8px; float:right;}
+#dot span{width:8px;height:8px;display:block; border-radius:10px; margin:0 5px;float: left;cursor:pointer; font-size:11px; text-align:center; line-height:20px; border:2px solid #FFF;}
+#dot .on{background-color: #FFF;}
+/*banner结束*/
+/*内容左边*/
+.c_left{width:706px; border:1px solid #e4e4e4; background:white; border-radius:5px;}
+.nr01{padding:20px 22px 22px 24px; border-bottom:1px dashed #e4e4e4;}
+.nr01 h3{padding-top:10px;}
+.nr01 h3 a{color:#333333; }
+.nr01 h3 a:hover{color:#28c0c6;}
+.from{padding-top:6px; font-size:12px;}
+.from a{color:#7c7c7c;}
+.from a:hover{color:#28c0c6;}
+.author i{font-style:normal; color:#b4b4b4;}
+.look{padding-left:300px;}
+.share{padding-left:62px;}
+.nr01 p{font-size:14px; color:#7c7c7c; padding-top:5px;}
+/*内容右边*/
+.c_right{width:240px; overflow: ;}
+/*签到*/
+.arrive{width:238px; height:357px; border:1px solid #e4e4e4; border-radius:5px; background:white; text-align:center;}
+.arrive img{padding-top:30px;}
+.arrive p:nth-child(2){font-size:12px; padding-top:20px;}
+.arrive p:nth-child(3){font-size:32px;}
+.arrive span{display:inline-block; width:178px; height:44px; background:#28C0C6; line-height:44px; border-radius:10px;}
+.arrive span a{color:white; font:24px;}
+.arrive span:hover{background:#0db0b6;}
+/*小编推荐*/
+.tj{width:238px; height:304px; border:1px solid #e4e4e4; border-radius:5px; background:white; margin-top:20px;}
+.tj h5{height:39px; line-height:39px; border-bottom:1px solid #e4e4e4; text-align:center;}
+.tj ul{padding-top:10px;}
+.tj ul li{font-size:12px; height:30px; line-height:30px; padding-left:25px;}
+.tj ul li a:hover{color:#24b9bf;}
+.qs{background:url(../img/club/list01.png) no-repeat 5px center;}
+.qs a{color:#24b9bf;}
+.hw{background:url(../img/club/list02.png) no-repeat 5px center;}
+.hw a{color:#524b48;}
+/*版块*/
+.Section{width:238px; height:331px; border:1px solid #e4e4e4; border-radius:5px; background:white; margin-top:20px; position:relative;}
+.Section_title a{display:inline-block; width:117px; height:39px; border:1px solid #f5f5f5;line-height:39px; text-align:center; float: left; color:#333333; font-weight:bold ; font-size:14px;}
+.Section_nr{position:absolute; left:0; top:41px; height:auto;}
+.Section_nr a{width:117px; height:46px; display:inline-block; float:left; font-size:13px; color:#7C7C7C; line-height:46px; text-align:center; border:1px solid #f5f5f5;}
+.Section_title a:hover,.Section_nr a:hover,.Section p a:hover{color:#28C0C6;}
+.Section p{height:50px; line-height:50px; position:absolute; left:0; bottom:0; padding-left:55px;}
+.Section p a{color:#7C7C7C;}
+/*小视频*/
+.movie{width:238px; height:190px; border:1px solid #e4e4e4; margin-top:20px; border-radius:5px;}
+
+/*脚部*/
+/*友情链接*/
+.frendlink{width:958px; height:318px; border:1px solid #e4e4e4; margin-top:20px;}
+.link_l{width:707px; height:318px;}
+.link_l h5{height:40px; line-height:40px; border-bottom:1px solid #e4e4e4; padding-left:40px;}
+.link_l ul{width:600px; height:260px; padding:30px 0 0 30px ;}
+.link_l li{float:left; padding-right:20px; height:29px;}
+.link_l li a{font-size:12px; color:#7c7c7c;}
+.link_l li a:hover{color:#28C0C6;}
+.link_r{width:151px; height:318px; text-align:center;}
+.link_r img{padding-top:80px;}
+.link_r p{font-size:12px; width:75px; color:#7c7c7c; text-align: center; padding:0 37px;}
+.copyright{text-align:center;}
+.copyright p{font-size:12px; color:#7c7c7c; padding-top:10px;}
+/*悬浮框开始*/
+.suspend{}
+/*回到顶部*/
+.toTop{position:fixed; right:10px; bottom:30px; display:none; width:40px; height:40px; background:#999999; border-radius:50%;}
+.toTop span{width:14px; height:14px; top:13px; left:13px ; background:url(../img/index/icon2.png) no-repeat -92px 3px; position:absolute;}
+.toTop:hover{background:#666666;}

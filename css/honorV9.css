@@ -1,0 +1,54 @@
+*{padding:0; margin:0; list-style:none; text-decoration:none;}
+.fl{float:left;}
+.fr{float:right;}
+.clearfix{clear:both;}
+.cont{width:1000px ; margin:0 auto;}
+/*头部*/
+.header{height:50px; background:#333333; overflow:hidden;}
+.logo{margin-top:12px;}
+.nav{height:50px;}
+.nav li{height:50px; line-height:48px; float:left; padding-left:42px;}
+.nav li a{color:white; font-size:14px;}
+.nav li a:hover{color:#dcdcdc;}
+/*内容区*/
+.content{background:white; overflow:hidden;}
+.yuyue{height:70px;}
+.yuyue_l{width:222px; height:70px; font-size:14px; padding:17px 0;}
+.yuyue_l p{height:16px;}
+.yuyue_r{height:70px;}
+.yuyue_r p{float:left; font-size:14px; padding:25px 10px 25px 0;}
+.yuyue_r p span{color:#ca141d; margin-right:10px;}
+.yuyue_r input{float:right; background:#ca141d; border:none; width:180px; height:40px; margin:15px 0; color:white;}
+/*banner部分*/
+.banner{background:white url() no-repeat scroll center top;}
+.banner02,.banner03,.banner04,.banner05{overflow:hidden;}
+.banner01{height:448px; background:url(../img/honorV9/banner01.jpg) no-repeat scroll center top;}
+.banner02{height:90px; background:url(../img/honorV9/banner02_01.jpg) no-repeat scroll center top;}
+.banner03{height:324px; background:url(../img/honorV9/banner02.jpg) no-repeat scroll center top;}
+.banner04{height:101px; background:url(../img/honorV9/banner03_01.jpg) no-repeat scroll center top;}
+.banner05{height:372px; background:url(../img/honorV9/banner03.jpg) no-repeat scroll center top;}
+/*内容部分*/
+.nr{}
+.nr01{height:80px; background:url(../img/honorV9/title01.jpg) no-repeat scroll center top;}
+.nr02{height:200px;}
+.nr03{height:318px; background:url(../img/honorV9/nr01.jpg) no-repeat scroll center top;}
+.nr04{height:318px; background:url(../img/honorV9/nr02.jpg) no-repeat scroll center top;}
+.nr05{height:37px; background:url(../img/honorV9/three.jpg) no-repeat scroll center top;}
+.nr06{height:200px;}
+.nr07{height:318px; background:url(../img/honorV9/nr03.jpg) no-repeat scroll center top;}
+.nr08{height:318px;}
+.nr09{height:200px;}
+.nr10{height:200px;}
+/*脚部*/
+.footer{margin-top:30px;}
+.copyright{height:147px; border-top:1px solid #EEEEEE; color:#888888; font-size:12px; box-sizing: border-box;}
+.copyright p a,.copyright p span{color:#888888; font-size:12px;}
+.copyright p a:hover{color:#C81118; text-decoration:underline;}
+.copyright p{text-align:center;}
+/*.copyright p:nth-child(1){padding-top:30px; box-sizing: border-box;}*/
+.copyright p:nth-child(1){padding-top:20px;}
+.copyright p:nth-child(3){padding-top:25px;}
+/*回到顶部*/
+.toTop{position:fixed; right:10px; bottom:30px; display:none; width:40px; height:40px; background:#999999; border-radius:50%;}
+.toTop span{width:14px; height:14px; top:13px; left:13px ; background:url(../img/index/icon2.png) no-repeat -92px 3px; position:absolute;}
+.toTop:hover{background:#666666;}

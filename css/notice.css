@@ -1,0 +1,44 @@
+.list{display:none;}
+.product_list h5:hover .list{display:block;}
+/*路径部分*/
+.path{padding:10px 0;}
+.path span{font-size:12px; display:inline-block;}
+.path span:nth-child(1) a{color:#666666;}
+.path span:nth-child(2){margin:0 10px;}
+.path span:nth-child(3) a{color:#333333;}
+/*内容详情*/
+.main{margin:10px 0 50px 0; overflow:hidden;}
+.main_l ul{width:177px; height:113px; border:1px solid #c7c7c7;}
+.main_l ul li{width:177px; height:37px; line-height:37px; text-align:center; background:#e8e8e8;}
+.main_l ul li:hover{background:#cbcbcb;}
+.main_l ul li a{color:#525151;}
+.main_l ul li:nth-child(2){border-top:1px solid #c7c7c7; border-bottom:1px solid #c7c7c7; background:#cbcbcb;}
+.main_l img{margin-top:20px;}
+/*公告列表部分*/
+.main_r{width:800px;}
+.notice_title{height:49px; border-bottom:2px solid #a8a8a8;}
+.t_right{font-size:12px; padding-top:23px;}
+.t_right span{color:orange; margin-left:25px;}
+.notice_list{margin-top:10px; overflow:hidden;}
+.notice_list li{height:46px; border-bottom:1px dashed #CCCCCC; line-height:46px; background:url(../img/notice/list_style.png) no-repeat left center ; padding-left:20px; overflow: hidden;}
+.notice_list li span:nth-child(1){float:left;}
+.notice_list li span:nth-child(2){float:right;}
+.notice_list li span{color:#adadad; font-size:12px;}
+.notice_list li span a{color:#666666; font-size:12px;}
+.notice_list li span a:hover{color:orange; text-decoration:underline;}
+/*页码部分*/
+.page_number{margin-top:30px; overflow:hidden;}
+.page_number ul{float:left;}
+.page_number ul li{float:left; width:31px; height:31px; line-height:29px; text-align:center;}
+.turn01,.turn02,.turn03{margin-right:10px;}
+.turn01:hover,.turn02:hover,.turn03:hover,.turn04:hover{border:1px solid #BBBBBB;}
+.page_number ul li a{font-size:12px; color:#666666;}
+.page_number ul li a:hover{color:#e01d20 ;}
+.turn01{background:url(../img/phone/page01.png) no-repeat center center; border:1px solid #DEDEDE; box-sizing: border-box;}
+.turn02{background:url(../img/phone/page02.png) no-repeat center center; border:1px solid #DEDEDE; box-sizing: border-box;}
+.turn03{background:url(../img/phone/page03.png) no-repeat center center; border:1px solid #DEDEDE; box-sizing: border-box;}
+.turn04{background:url(../img/phone/page04.png) no-repeat center center; border:1px solid #DEDEDE; box-sizing: border-box;}
+/*回到顶部*/
+.toTop{position:fixed; right:10px; bottom:30px; display:none; width:40px; height:40px; background:#999999; border-radius:50%;}
+.toTop span{width:14px; height:14px; top:13px; left:13px ; background:url(../img/index/icon2.png) no-repeat -92px 3px; position:absolute;}
+.toTop:hover{background:#666666;}

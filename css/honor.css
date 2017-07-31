@@ -1,0 +1,103 @@
+.logo{width:161px; height:40px; margin:37px 0;}
+.reture_index{width:78px; height:26px; border:1px solid #EDEDED; margin:43px 0 43px 15px; line-height:26px; text-align:center; border-radius:15px  15px 15px 15px;}
+.reture_index a{color:#666666;}
+.reture_index a:hover{text-decoration:underline;}
+.nav{background:#00b5e2;}
+.nav h5{background:#003643;}
+.nav h5 a{color:#FFF;}
+.nav ul li a:hover{background:#0e89a7; display: block;}
+/*内容区*/
+.content{overflow:hidden;}
+/*banner开始*/
+.banner{height:448px; position:relative; width:100%; overflow:hidden;}
+.banner_content{position:absolute; left:50%; margin-left:-960px; height:448px; width:1920px; overflow:hidden;}
+.banner_list{width:1920px; overflow:hidden;}
+.banner_list img{ width:1920px; height:448px; position: absolute; top:0px; left:0px; display: block;}
+#pre{width:50px;height:50px;float:left;position:absolute;top:190px;left:290px;cursor:pointer;display:none;z-index: 2; font-size:48px; line-height:48px; color:white; text-align:center; border-radius:50%; border:2px solid white;}
+#next{width:50px;height:50px;float: left;position:absolute;top:190px;right:290px;cursor:pointer;display:none;z-index: 2; font-size:48px; line-height:48px; color:white; text-align:center; border-radius:50%; border:2px solid white;}
+.banner:hover #pre,.banner:hover #next{display: block; background-color: rgba(0,0,0,0.2);}
+#pre:hover,#next:hover{background-color: rgba(0,0,0,0.6);}	        
+.dot_cont{width:1200px; height:20px; position:absolute; bottom:15px; z-index: 10; margin-left:360px;}
+#dot{height:20px; float:right;}	
+#dot span{width:20px;height:20px;display:block;border-radius:10px;background-color:#000000; opacity:0.8; margin:0 5px;float: left;cursor:pointer; font-size:11px; text-align:center; line-height:20px; color:#FFFFFF;}
+#dot .on{background-color: #c81118;}
+/*二级菜单开始*/
+.list{position:absolute; left:360px; z-index:100;}
+.listLi{width:220px; height:448px; background:#333333; opacity:0.8;position:absolute;}
+.listLi dl{height:64px; width:220px; box-sizing:border-box; padding:10px 0 0 20px;}
+.listLi dl:hover {background:#000000; opacity:0.8;}
+.listLi dt a{color:#ffffff; font-size:16px;}
+.listLi dd{padding-top:5px;}
+.listLi dd a{color:#888888; font-size:14px;}
+/*banner结束*/
+.ad_huawei{height:180px; margin-top:10px; overflow:hidden;}
+.ad_huawei li{float:left;}
+.ad_huawei li:nth-child(1){margin-right:6px;}
+.ad_huawei li:nth-child(3){margin:0 7px;}
+.hot_phone{height:208px; margin-top:10px; overflow:hidden;}
+.hot_phone dl{float:left; width:396px; height:208; border:1px solid #efefef; box-sizing:border-box;}
+.hot_phone dl:nth-child(2){margin:0 6px;}
+.hot_phone dl:hover{width:396px; height:208; border:3px solid #b1efff; box-sizing:border-box;}
+.hot_phone dl:hover dt{padding:28px 0 0 28px; box-sizing:border-box;}
+.hot_phone dl:hover span{left:26px; top:148px;}
+.hot_phone dl:hover dd{padding:0; box-sizing:border-box;}
+.hot_phone dl dt{float:left; padding:30px 0 0 30px; width:161px; position: relative;}
+.hot_phone dl dt h3{font-size:16px;}
+.hot_phone dl dt p{padding-top:5px; font-size:12px; color:#B0B0B0;}
+.hot_phone dl dt span{color:#00b5e2; position: absolute; left:28px; top:150px;  display:block;}
+.hot_phone dl dd{float:right; padding:2px 2px 2px 0; height:198px ; width:198px;}
+/*内容区广告条*/
+.banner_nr{overflow: hidden; margin-top:20px; overflow:hidden;}
+/*内容的分类*/
+.type_huawei{margin-top:20px; overflow:hidden;}
+.type_title{height:20px; padding-bottom:10px;}
+.type_title h3{border-left:3px solid #00b5e2; height:20px; font-size:16px; padding-left:10px; float:left;}
+.type_title span{float:left; padding-left:15px; font-size:12px; height:20px; line-height:25px; color:#777777;}
+.type_title ul{float:right;}
+.type_title ul li{float:left; padding-left:25px;}
+.type_title ul li a{font-size:12px; color:#777777;}
+.type_title ul li a:hover{color:#C81118;}
+/*内容的分类的布局*/
+.img_tr,.img_cl,.img_br,.img_bl{width:300px; height:324px; border:1px solid #efefef; box-sizing:border-box; text-align: center;}
+.img_one{width:600px; height:324px; border:1px solid #efefef; box-sizing:border-box;}
+.img_one dt{float:left; width:210px; height:210px; padding:52px 46px;}
+.img_one dt img{width:210px; height:210px;}
+.img_one dd{width:243px; height:210px; padding-top:60px; float:left;}
+.img_one dd h4 a{font-size:28px; color:#333333;}
+.img_one dd h4 a:hover{text-decoration:underline;}
+.img_one dd p:nth-child(2){color:#B0B0B0; padding-top:20px;}
+.img_one dd p:nth-child(3){color:#00b5e2; padding-top:60px;}
+.buy{display:inline-block; background:#C81118; color:white; width:80px ; height:32px; line-height:32px; text-align:center; border: 1px solid #b3131a; box-sizing:border-box; font-size:13px; margin-left:20px; border-radius:5px;}
+.img_tr{border-left:none;}
+.img_cl{border-top:none;}
+.img_br{border-top:none; border-left:none; }
+.img_bl{border-top:none;}
+.img-size{width:168px; height:168px; padding:36px 0 20px;}
+.img_name a{color:#333333;}
+.img_name a:hover{text-decoration:underline;}
+.img_sell{font-size:12px; color:#B0B0B0; padding:5px 0;}
+.img_price{color:#00b5e2;}
+/*鼠标进过特效*/
+.img_one:hover{border:3px solid #b1efff; box-sizing:border-box;}
+.img_one:hover dt{padding:50px 46px 50px 44px;}
+.img_one:hover dd{padding-top:58px;}
+.img_tr:hover{border:3px solid #b1efff; box-sizing:border-box;}
+.img_tr:hover .img-size{padding:34px 1px 20px 0;}
+.img_tr:hover .img_name,.img_tr:hover .img_sell,.img_tr:hover .img_price{padding-right:1px;}
+.img_cl:hover{border:3px solid #b1efff; box-sizing:border-box;}
+.img_cl:hover .img-size{padding:33px 0 20px 0;}
+.img_bl:hover{border:3px solid #b1efff; box-sizing:border-box;}
+.img_bl:hover .img-size{padding:33px 0 20px 0;}
+.img_br:hover{border:3px solid #b1efff; box-sizing:border-box;}
+.img_br:hover .img-size{padding:33px 1px 20px 0;}
+.img_br:hover .img_name,.img_br:hover .img_sell,.img_br:hover .img_price{padding-right:1px;}
+/*内容区广告条*/
+.banner_nr02{overflow: hidden; margin:20px 0 45px 0; overflow:hidden;}
+/*尾部不同部分*/
+.copyright p a:hover{color:#00B5E2; text-decoration:underline;}
+/*悬浮框开始*/
+.suspend{}
+/*回到顶部*/
+.toTop{position:fixed; right:10px; bottom:30px; display:none; width:40px; height:40px; background:#999999; border-radius:50%;}
+.toTop span{width:14px; height:14px; top:13px; left:13px ; background:url(../img/index/icon2.png) no-repeat -92px 3px; position:absolute;}
+.toTop:hover{background:#666666;}

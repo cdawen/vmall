@@ -1,0 +1,92 @@
+*{padding:0; margin:0; list-style-type:none; text-decoration:none;}
+.cont{width:1000px; margin:0 auto;}
+.fl{float:left;}
+.fr{float:right;}
+.clearfix{clear:both;}
+/*头部*/
+.header{height:50px; background:url(../img/peijian/top_bg.jpg) no-repeat scroll center top;}
+.header ul{float:right;}
+.header ul li{float:left; height:50px; line-height:60px; padding-right:20px;}
+.header ul li a{color:white; font-size:14px;}
+.header ul li a:hover{color:yellow; text-decoration:underline;}
+/*内容区*/
+.banner{height:624px; overflow:hidden; position:relative; z-index:1;}
+.banner img{height:624px;}
+/*.menu{height:50px; background:#990033; position:absolute; z-index:10; width:100%;}
+.menu ul{width:1000px; margin:0 auto; float:left;}
+.menu li{float:left;}*/
+/*01精品推荐*/
+.title01{height:139px;}
+.title01 img{height:139px;}
+.img_tj01{height:309px;}
+.img_tj01 img{height:309px;}
+.img_tj02{height:310px;}
+.img_tj02 img{height:310px;}
+.img_tj03{height:299px;}
+.img_tj03 img{height:299px;}
+/*02明星单品*/
+.title02{ height:129px;}
+.title02 img{ height:129px;}
+.img_star01{height:310px;}
+.img_star01 img{height:310px;}
+/*03电源线材*/
+.title03{height:152px;}
+.title03 img{height:152px;}
+.img_xc01{height:320px;}
+.img_xc01 img{height:320px;}
+.img_xc02{height:310px;}
+.img_xc02 img{height:310px;}
+/*04影音娱乐*/
+.title04{height:148px;}
+.title04 img{height:148px;}
+.img_movie01{height:210px;}
+.img_movie01 img{height:210px;}
+.img_movie02{height:320px;}
+.img_movie02 img{height:320px;}
+.img_movie03{height:311px;}
+.img_movie03 img{height:311px;}
+/*05潮流配件*/
+.title05{height:147px;}
+.title05 img{height:147px;}
+.img_pj01{height:310px;}
+.img_pj01 img{height:310px;}
+.img_pj02{height:319px}
+.img_pj02 img{height:319px;}
+.img_pj03{height:321px;}
+.img_pj03 img{height:321px;}
+.img_pj04{height:321px;}
+.img_pj04 img{height:321px;}
+/*06热度排行*/
+.title06{height:127px;}
+.title06 img{ height:127px;}
+.img_ph01{height:88px;}
+.img_ph01 img{height:88px;}
+.img_ph02{height:88px;}
+.img_ph02 img{height:88px;}
+.img_ph03{height:88px;}
+.img_ph03 img{height:88px;}
+.img_ph04{height:88px;}
+.img_ph04 img{height:88px;}
+.img_ph05{height:88px;}
+.img_ph05 img{height:88px;}
+.img_ph06{height:80px;}
+.img_ph06 img{height:80px;}
+/*07体验评测*/
+.title07{ height:145px;}
+.title07 img{height:145px;}
+.img_pc01{height:310px;}
+.img_pc01 img{height:310px;}
+.img_pc02{height:318px;}
+.img_pc02 img{height:318px;}
+/*08爆品秒杀*/
+.title08{height:139px;}
+.title08 img{height:139px;}
+.img_ms01{height:406px;}
+.img_ms01 img{height:406px;}
+/*共同的*/
+.img_tj01,.img_tj02,.img_tj03,.img_star01,.img_xc01,.img_xc02,.img_movie01,.img_movie02,.img_movie03,.img_pj01
+,.img_pj02,.img_pj03,.img_pj04,.img_ph01,.img_ph02,.img_ph03,.img_ph04,.img_ph05,.img_ph06,.img_pc01,.img_pc02,.img_ms01,.title01,.title02,.title03,.title04,.title05,.title06,.title07,.title08,.banner{width:100%; position:relative; overflow:hidden;}
+img{width:1920px; position:absolute; left:50%; margin-left:-960px;}
+.img_tj01,.img_tj02,.img_tj03,.img_star01,.img_xc01,.img_xc02,.img_movie01,.img_movie02,.img_movie03,.img_pj01
+,.img_pj02,.img_pj03,.img_pj04,.img_ph01,.img_ph02,.img_ph03,.img_ph04,.img_ph05,.img_ph06,.img_pc01,.img_pc02,.img_ms01
+
